@@ -1,0 +1,31 @@
+{
+  "name": "versatile-innovations",
+  "workspaces": [
+    "apps/web",
+    "apps/server"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "start:web": "npm run -w apps/web dev",
+    "start:server": "npm run -w apps/server start",
+    "start": "concurrently \"npm run start:web\" \"npm run start:server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.8.1",
+    "@stripe/stripe-js": "^4.9.0",
+    "@types/stripe": "^8.0.417",
+    "bootstrap-icons": "^1.11.3",
+    "handlebars": "^4.7.8",
+    "nodemailer": "^6.9.16",
+    "puppeteer": "^23.8.0",
+    "react-markdown": "^9.0.1",
+    "redis": "^4.7.0",
+    "stripe": "^17.3.1"
+  }
+}

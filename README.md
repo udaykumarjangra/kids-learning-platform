@@ -1,1 +1,1 @@
-# kids-learning-platform
+Learning Project

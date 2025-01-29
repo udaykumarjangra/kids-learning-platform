@@ -1,0 +1,26 @@
+.input-custom .is-invalid {
+  border-color: #dc3545 !important;
+}
+
+.input-custom .is-invalid:focus {
+  box-shadow: 0px 0px 8px rgba(220, 53, 69, 0.5) !important;
+}
+
+.input-custom:focus {
+  box-shadow: 0px 0px 8px rgba(251, 209, 162, 0.5) !important;
+}
+
+.input-custom {
+  border-color: rgba(251, 209, 162, 0.5) !important;
+}
+
+.button-custom {
+  background-color: rgb(251, 209, 162) !important;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+
+.button-custom:hover {
+  background-color: #fbd1a2 !important;
+}
