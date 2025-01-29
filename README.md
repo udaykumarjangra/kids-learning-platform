@@ -1,1 +1,1 @@
-Learning Project for team Versatile Innovations at Lambton College
+# kids-learning-platform
